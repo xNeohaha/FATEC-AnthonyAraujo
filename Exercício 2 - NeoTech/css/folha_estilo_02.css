@@ -1,0 +1,40 @@
+body{
+  background-color: #e6e6e6; /* Cor de fundo da página - https://www.w3schools.com/css/css_background.asp */
+  font-family: Arial, sans-serif; /* Fonte padrão da página - https://www.w3schools.com/css/css_font.asp */
+  /* margin: 0%;
+  padding: 0%; */
+}
+
+.profile-img{
+  width: 100px; /* Define a largura da imagem - https://www.w3schools.com/css/css3_dimensions.asp */
+  height: 100px; /* Define a altura da imagem - https://www.w3schools.com/css/css3_dimensions.asp */
+  border-radius: 50%; /* Torna a imagem circular - https://www.w3schools.com/css/css3_borders.asp */
+  object-fit: cover; /* Garante que a imagem preencha o contêiner sem distorção - https://www.w3schools.com/css/css3_object-fit.asp */
+}
+
+.card-header{
+  border-radius: 10px 10px 0 0; /* Bordas arredondadas apenas no topo do cartão - https://www.w3schools.com/css/css3_borders.asp */
+  background-color: #4CAF50; /* Cor de fundo do cabeçalho do cartão - https://www.w3schools.com/css/css_background.asp */
+  color: white; /* Cor do texto no cabeçalho do cartão - https://www.w3schools.com/css/css_color.asp */
+  padding: 20px; /* Espaçamento interno do cabeçalho do cartão - https://www.w3schools.com/css/css_padding.asp */
+  text-align: center; /* Centraliza o texto no cabeçalho do cartão - https://www.w3schools.com/css/css_text_align.asp */
+  /*margin: 30px; */
+}
+
+.card{
+  background-color: white; /* Cor de fundo do cartão - https://www.w3schools.com/css/css_background.asp */
+  width: 300px; /* Largura do cartão - https://www.w3schools.com/css/css3_dimensions.asp */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adiciona sombra ao redor do cartão - https://www.w3schools.com/css/css_box-shadow.asp */
+  border-radius: 10px; /* Bordas arredondadas do cartão - https://www.w3schools.com/css/css3_borders.asp */
+  /*margin: 50px auto;  Centraliza o cartão na página - https://www.w3schools.com/css/css_margin.asp */
+  /*overflow: hidden; /* Garante que o conteúdo não ultrapasse as bordas arredondadas - https://www.w3schools.com/css/css_overflow.asp */
+}
+
+.card-body{
+  background-color: white;
+  padding: 20px; /* Espaçamento interno do corpo do cartão - https://www.w3schools.com/css/css_padding.asp */
+}
+
+.text-justify{
+  text-align: justify; /* Justifica o texto no corpo do cartão - https://www.w3schools.com/css/css_text_align.asp */
+}
