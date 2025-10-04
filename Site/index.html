@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baranaex</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Baranaex</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" href="#">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Produtos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Ofertas</a></li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar">
+                    <button class="btn btn-warning" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div id="bannerCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imgs/gplay.png" class="d-block w-100" alt="Banner Produto 1">
+            </div>
+            <div class="carousel-item">
+                <img src="imgs/valo_banner.png" class="d-block w-100" alt="Banner 2">
+            </div>
+            <div class="carousel-item">
+                <img src="imgs/valve.png" class="d-block w-100" alt="Banner 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#bannerCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#bannerCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Produtos em Destaque</h2>
+        <div class="row">
+            <div class="col-md-4 mb-5">
+                <div class="card">
+                    <img src="imgs/mrivals.webp" class="card-img-top" alt="GIFT CARD - Marvel Rivals">
+                    <div class="card-body">
+                        <h5 class="card-title">GIFT CARD - Marvel Rivals</h5>
+                        <p class="card-text">Créditos digitais para desbloquear conteúdos exclusivos, skins e itens
+                            especiais no jogo Marvel Rivals.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imgs/roblox.webp" class="card-img-top" alt="GIFT CARD - ROBLOX">
+                    <div class="card-body">
+                        <h5 class="card-title">GIFT CARD - ROBLOX</h5>
+                        <p class="card-text">Adicione Robux à sua conta e personalize seus jogos, compre acessórios e
+                            aproveite a criatividade sem limites do Roblox.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imgs/valorant.webp" class="card-img-top" alt=" GIFT CARD - Valorant">
+                    <div class="card-body">
+                        <h5 class="card-title">GIFT CARD - Valorant</h5>
+                        <p class="card-text">“Adquira Valorant Points para liberar skins, passes de batalha e conteúdos
+                            exclusivos dentro do jogo.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imgs/psstore.webp" class="card-img-top" alt=" GIFT CARD - PS Store">
+                    <div class="card-body">
+                        <h5 class="card-title">GIFT CARD - PS Store</h5>
+                        <p class="card-text">Carregue sua carteira da PSN e compre jogos, DLCs, assinaturas Plus e
+                            conteúdos digitais para PlayStation.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imgs/xbox.webp" class="card-img-top" alt=" GIFT CARD - XBOX">
+                    <div class="card-body">
+                        <h5 class="card-title">GIFT CARD - XBOX</h5>
+                        <p class="card-text"><b>Use o gift card para adquirir jogos, pacotes de expansão, Xbox Game Pass e muito mais na loja oficial da Microsoft.</b></p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imgs/steam.webp" class="card-img-top" alt=" GIFT CARD - STEAM">
+                    <div class="card-body">
+                        <h5 class="card-title">GIFT CARD - STEAM</h5>
+                        <p class="card-text">“Adicione saldo à sua conta Steam e escolha entre milhares de jogos, softwares e conteúdos digitais.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4 mt-5">
+        <div class="container text-center">
+            <p>&copy; 2025 Baranaex</p>
+            <a href="#" class="text-light">Política de Privacidade</a> |
+            <a href="#" class="text-light">Termos de Uso</a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
