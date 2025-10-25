@@ -3,28 +3,28 @@
     "titulo": "Exercício 1 - NeoTech",
     "descricao": "Exércicio da Tabela de Jogos.",
     "links": [
-      { "texto": "Ver o site.", "url": "../projects/Exercício 1 - NeoTech/index.html" }
+      { "texto": "Ver o site.", "url": "./projects/Exercício 1 - NeoTech/index.html" }
     ]
   },
   {
     "titulo": "Exercício 2 - NeoTech V2",
     "descricao": "Exércicio sobre Flexbox e Cards.",
     "links": [
-      { "texto": "Ver o site.", "url": "../projects/Exercício 2 - NeoTech/index.html" }
+      { "texto": "Ver o site.", "url": "./projects/Exercício 2 - NeoTech/index.html" }
     ]
   },
   {
     "titulo": "Exercício 3 - Baranaex",
     "descricao": "Exercício sobre criar um clone da Amazon. No meu caso, optei por uma loja de GIFT Cards.",
     "links": [
-      { "texto": "Ver o site.", "url": "../projects/Exercício 3 - Amazon/index.html" }
+      { "texto": "Ver o site.", "url": "./projects/Exercício 3 - Amazon/index.html" }
     ]
   },
   {
     "titulo": "Exercício 4 - JavaScript",
     "descricao": "Os primeiros exercícios de JavaScript",
     "links": [
-      { "texto": "Ver o site.", "url": "../projects/Exercício 4 - JavaScript/index.html" }
+      { "texto": "Ver o site.", "url": "./projects/Exercício 4 - JavaScript/index.html" }
     ]
   },
   {
