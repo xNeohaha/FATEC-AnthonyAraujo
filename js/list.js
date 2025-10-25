@@ -7,8 +7,8 @@ window.onload = () => {
     // const projetos = await response.json();
 
     const response = fetch('../data/projetos.json').then(
-      resposta => {
-        return resposta.json();
+      response => {
+        return response.json();
       }
     ).then(
       projetos => {
