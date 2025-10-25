@@ -3,6 +3,10 @@ const inputTask = document.getElementById('inputTask');
 let count = 0;
 
 function addTask() {
+    if (count == 10) {
+
+        alert('Você passou de 10 tarefas, vai trabalhar vagabundo!')
+}
     const newElement = document.createElement('div');
     count+=1
     newElement.innerHTML = `<span id="span_${count}">${inputTask.value}</span>
