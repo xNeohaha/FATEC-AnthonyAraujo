@@ -1,17 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Exercício 4.4 - Lista de Tarefas</title>
 </head>
+
 <body>
-    <button id = "btn_1">Clique aqui para mudar!</button>
-            <p id = "p_texto" >Que site feio. </p>
-  
+  <div class="container">
+    <h1>Exercício 4.4 - Lista de Tarefas</h1>
+    
+    <div>
+        <input type="text" id="inputTask">
+        <button onclick="addTask()">Adicionar</button>
+        <input placeholder="Digite aqui para pesquisar.." id="inputSearch" ></input>
+        <button onclick="addFilter()">Pesquisar</button>
+    </div>
+    
+    <h2>Tarefas</h2>
 
+    <div id="pendentList">      
+    </div>
+
+
+  </div>
+
+  <script src="js/list.js"></script>
 </body>
-<script src = "js/script_01.js"></script>
-
 </html>
-

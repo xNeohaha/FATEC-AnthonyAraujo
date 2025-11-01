@@ -21,8 +21,8 @@
     ]
   },
   {
-    "titulo": "Exercício 4 - JavaScript",
-    "descricao": "Os primeiros exercícios de JavaScript",
+    "titulo": "Exercício 4 - To do List",
+    "descricao": "Os primeiros exercícios de To do List",
     "links": [
       { "texto": "Ver o site.", "url": "./projects/Exercício 4 - JavaScript/index.html" }
     ]
