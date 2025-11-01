@@ -1,0 +1,192 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #2e2e2e;
+  color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+a {
+  color: #fca311;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #ffd166;
+}
+
+
+.site-header {
+  background-color: #3d3d3d;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.header-logo img {
+  vertical-align: middle;
+}
+
+.header-text h1,
+.header-text h2,
+.header-text h3,
+.header-text h4 {
+  margin: 8px 0;
+}
+
+.title-main {
+  font-size: 2rem;
+  color: #fca311;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #ddd;
+}
+
+.tagline {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.update-info {
+  font-size: 0.9rem;
+  color: #bbb;
+}
+
+
+.intro-text {
+  max-width: 700px;
+  margin: 20px auto;
+  line-height: 1.6;
+}
+
+
+.section-title {
+  font-size: 1.3rem;
+  color: #fca311;
+  margin: 25px 0 10px;
+}
+
+.trend-list,
+.company-list {
+  text-align: left;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+
+.product-section {
+  padding: 40px 0;
+}
+
+.product-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #3d3d3d;
+  border-radius: 10px;
+  padding: 20px;
+  width: 280px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.6);
+}
+
+.card img {
+  width: 120px;
+  height: auto;
+  border-radius: 10px;
+  filter: invert(100%);
+}
+
+.card h3,
+.card h4 {
+  margin-top: 10px;
+  color: #fca311;
+}
+
+.card h5 {
+  margin-top: 10px;
+  color: #ffd900;
+}
+
+.card p {
+  color: #ccc;
+  font-size: 0.95rem;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 8px;
+  background-color: #fca311;
+  color: #2e2e2e;
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: background 0.2s ease;
+}
+
+.card a:hover {
+  background-color: #ffd166;
+}
+
+/* Carrossel de cards */
+#productCarousel .carousel-inner {
+  padding: 20px;
+}
+
+#productCarousel .card {
+  background: linear-gradient(180deg, #001f54, #000b2e);
+  border: none;
+  color: #fff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#productCarousel .card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+#productCarousel .card-title {
+  color: #ff9900;
+}
+
+#productCarousel .btn-primary {
+  background-color: #ff9900;
+  border: none;
+  color: #111;
+  font-weight: 600;
+}
+
+#productCarousel .btn-primary:hover {
+  background-color: #ffb84d;
+  color: #000;
+}
+
+.site-footer {
+  margin-top: 40px;
+  padding: 15px;
+  background-color: #3d3d3d;
+  color: #bbb;
+  font-size: 14px;
+}
+
+.footer-note {
+  display: block;
+  margin-top: 5px;
+  font-size: 12px;
+  color: #aaa;
+}
