@@ -118,7 +118,10 @@ a:hover {
   margin-top: 10px;
   color: #fca311;
 }
-
+.card h5 {
+  margin-top: 10px;
+  color: #ffd900;
+}
 .card p {
   color: #ccc;
   font-size: 0.95rem;

@@ -15,39 +15,38 @@ window.onload = () => { // Começa quando carrega a janela
 
           const title = document.createElement("h3"); // Cria um H3
           title.textContent = projeto.titulo; // Seta o texto do H3 para o conteúdo "titulo" do JSON.
-          card.appendChild(title);
+          card.appendChild(title); // Passa para o Node Parent Card
 
           if (projeto.semestre) { // Verifica se o Há um semestre atribuido.
 
             const semester = document.createElement("h4"); // Cria um H4
             semester.textContent = (projeto.semestre + "º Semestre"); // Seta o texto do H4 para o conteúdo "semestre" do JSON.
-            card.appendChild(semester);
+            card.appendChild(semester); // Passa para o Node Parent Car
           } else {
             console.error("O projeto " + projeto.titulo + " não possui semestre.");
           }
           if (projeto.status) {
 
-            const statustext = document.createElement("h4"); // Cria um H4
+            const statustext = document.createElement("h5"); // Cria um H5
             if (projeto.status == true) {
               statustext.textContent = ("O exercício está completo."); // Seta o texto do H4 para o conteúdo "semestre" do JSON.
             } else if (projeto.status == false) {
               statustext.textContent = ("O exercício está incompleto. Talvez um erro."); // Seta o texto do H4 para o conteúdo "semestre" do JSON.
-
             }
-            card.appendChild(statustext);
+            card.appendChild(statustext); // Passa para o Node Parent Car
           }
 
           const desc = document.createElement("p"); // Cria o <p> paragrafo da silva
           desc.textContent = projeto.descricao; // Puxa a descrição do Json
-          card.appendChild(desc); // PEGA O NODE DA CHILD DE UM PARENTE, sendo a const desc.
+          card.appendChild(desc);
 
 
-          projeto.links.forEach(linkData => { // Pega os links e repete caso haja mais de um. (CASO HAJA MAIS DE UM)
-            const link = document.createElement("a"); // Cria o anexo
-            link.href = linkData.url; // Puxa o url do Json
-            link.textContent = linkData.texto; // Puxa o texto do JSON
-            card.appendChild(link);
-          });
+            projeto.links.forEach(linkData => { // Pega os links e repete caso haja mais de um. (CASO HAJA MAIS DE UM)
+              const link = document.createElement("a"); // Cria o anexo
+              link.href = linkData.url; // Puxa o url do Json
+              link.textContent = linkData.texto; // Puxa o texto do JSON
+              card.appendChild(link); // Passa para o Node Parent Car
+            });
 
           container.appendChild(card); // Finaliza o Card
           console.log("Titulo: " + projeto.titulo + "\nDescrição: " + projeto.descricao) // Recap
