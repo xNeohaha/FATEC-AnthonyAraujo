@@ -1,13 +1,17 @@
 [
   {
     "titulo": "Exercício 1 - NeoTech", 
+    "semestre": "1",
     "descricao": "Exércicio da Tabela de Jogos.",
+    "status": true,
     "links": [
       { "texto": "Ver o site.", "url": "./projects/Exercício 1 - NeoTech/index.html" }
     ]
   },
   {
     "titulo": "Exercício 2 - NeoTech V2",
+    "semestre": "1",
+    "status": true,
     "descricao": "Exércicio sobre Flexbox e Cards.",
     "links": [
       { "texto": "Ver o site.", "url": "./projects/Exercício 2 - NeoTech/index.html" }
@@ -15,6 +19,8 @@
   },
   {
     "titulo": "Exercício 3 - Baranaex",
+    "semestre": "1",
+    "status": true,
     "descricao": "Exercício sobre criar um clone da Amazon. No meu caso, optei por uma loja de GIFT Cards.",
     "links": [
       { "texto": "Ver o site.", "url": "./projects/Exercício 3 - Amazon/index.html" }
@@ -22,7 +28,9 @@
   },
   {
     "titulo": "Exercício 4 - To do List",
-    "descricao": "Os primeiros exercícios de To do List",
+    "semestre": "1",
+    "status": true,
+    "descricao": "To do List.",
     "links": [
       { "texto": "Ver o site.", "url": "./projects/Exercício 4 - JavaScript/index.html" }
     ]
@@ -36,6 +44,7 @@
   },
   {
     "titulo": "Exercício PI - Protótipo ParkShare (ANTIGO)",
+    "semestre": "1",
     "descricao": "Anthony Araujo, Henrique Sousa, Guilherme Otavio, Moisés dos Santos e José Rabelo.",
     "links": [
       { "texto": "Ver o site.", "url": "https://henrique151.github.io/ParkShare/" },
