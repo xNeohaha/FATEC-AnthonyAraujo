@@ -5,14 +5,14 @@ window.onload = () => {
 
     // const response = await fetch("../data/projetos.json");
     // const projetos = await response.json();
-    const response = fetch('../data/projetos.json').then(
+    const response = fetch('./data/projetos.json').then(
       response => {
         return response.json();
       }
     ).then(
       projetos => {
         projetos.forEach(projeto => {
-          console.log("tried")
+        console.log("tried")
         const card = document.createElement("div");
         card.classList.add("card");
 
