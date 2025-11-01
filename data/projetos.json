@@ -1,6 +1,6 @@
 [
   {
-    "titulo": "Exercício 1 - NeoTech",
+    "titulo": "Exercício 1 - NeoTech", 
     "descricao": "Exércicio da Tabela de Jogos.",
     "links": [
       { "texto": "Ver o site.", "url": "./projects/Exercício 1 - NeoTech/index.html" }
@@ -35,7 +35,7 @@
     ]
   },
   {
-    "titulo": "Exercício PI - Protótipo ParkShare",
+    "titulo": "Exercício PI - Protótipo ParkShare (ANTIGO)",
     "descricao": "Anthony Araujo, Henrique Sousa, Guilherme Otavio, Moisés dos Santos e José Rabelo.",
     "links": [
       { "texto": "Ver o site.", "url": "https://henrique151.github.io/ParkShare/" },
