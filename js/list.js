@@ -41,12 +41,12 @@ window.onload = () => { // Começa quando carrega a janela
           card.appendChild(desc);
 
 
-            projeto.links.forEach(linkData => { // Pega os links e repete caso haja mais de um. (CASO HAJA MAIS DE UM)
-              const link = document.createElement("a"); // Cria o anexo
-              link.href = linkData.url; // Puxa o url do Json
-              link.textContent = linkData.texto; // Puxa o texto do JSON
-              card.appendChild(link); // Passa para o Node Parent Car
-            });
+          projeto.links.forEach(linkData => { // Pega os links e repete caso haja mais de um. (CASO HAJA MAIS DE UM)
+            const link = document.createElement("a"); // Cria o anexo
+            link.href = linkData.url; // Puxa o url do Json
+            link.textContent = linkData.texto; // Puxa o texto do JSON
+            card.appendChild(link); // Passa para o Node Parent Car
+          });
 
           container.appendChild(card); // Finaliza o Card
           console.log("Titulo: " + projeto.titulo + "\nDescrição: " + projeto.descricao) // Recap

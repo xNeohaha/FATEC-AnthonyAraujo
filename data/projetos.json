@@ -1,11 +1,14 @@
 [
   {
-    "titulo": "Exercício 1 - NeoTech", 
+    "titulo": "Exercício 1 - NeoTech",
     "semestre": "1",
     "descricao": "Exércicio da Tabela de Jogos.",
     "status": true,
     "links": [
-      { "texto": "Ver o site.", "url": "./projects/Exercício 1 - NeoTech/index.html" }
+      {
+        "texto": "Ver o site.",
+        "url": "./projects/Exercício 1 - NeoTech/index.html"
+      }
     ]
   },
   {
@@ -14,7 +17,10 @@
     "status": true,
     "descricao": "Exércicio sobre Flexbox e Cards.",
     "links": [
-      { "texto": "Ver o site.", "url": "./projects/Exercício 2 - NeoTech/index.html" }
+      {
+        "texto": "Ver o site.",
+        "url": "./projects/Exercício 2 - NeoTech/index.html"
+      }
     ]
   },
   {
@@ -23,7 +29,10 @@
     "status": true,
     "descricao": "Exercício sobre criar um clone da Amazon. No meu caso, optei por uma loja de GIFT Cards.",
     "links": [
-      { "texto": "Ver o site.", "url": "./projects/Exercício 3 - Amazon/index.html" }
+      {
+        "texto": "Ver o site.",
+        "url": "./projects/Exercício 3 - Amazon/index.html"
+      }
     ]
   },
   {
@@ -32,14 +41,20 @@
     "status": true,
     "descricao": "To do List.",
     "links": [
-      { "texto": "Ver o site.", "url": "./projects/Exercício 4 - JavaScript/index.html" }
+      {
+        "texto": "Ver o site.",
+        "url": "./projects/Exercício 4 - JavaScript/index.html"
+      }
     ]
   },
   {
     "titulo": "Repositório",
     "descricao": "Clique aqui para ver o Repositório",
     "links": [
-      { "texto": "Ver o código.", "url": "https://github.com/xNeohaha/FATEC-AnthonyAraujo" }
+      {
+        "texto": "Ver o código.",
+        "url": "https://github.com/xNeohaha/FATEC-AnthonyAraujo"
+      }
     ]
   },
   {
@@ -47,8 +62,14 @@
     "semestre": "1",
     "descricao": "Anthony Araujo, Henrique Sousa, Guilherme Otavio, Moisés dos Santos e José Rabelo.",
     "links": [
-      { "texto": "Ver o site.", "url": "https://henrique151.github.io/ParkShare/" },
-      { "texto": "Ver o Repositório.", "url": "https://github.com/henrique151/ParkShare" }
+      {
+        "texto": "Ver o site.",
+        "url": "https://henrique151.github.io/ParkShare/"
+      },
+      {
+        "texto": "Ver o Repositório.",
+        "url": "https://github.com/henrique151/ParkShare"
+      }
     ]
   }
 ]
